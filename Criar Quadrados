@@ -1,0 +1,11 @@
+function quadradoAzul() { // Define a função para criar um quadrado azul
+    const azul = document.createElement("div"); // Cria um novo elemento <div> dinamicamente
+    azul.classList.add("azul"); // Adiciona a classe "azul" ao elemento <div>
+    document.body.appendChild(azul); // Adiciona o <div> azul ao body
+}
+
+function quadradoVermelho() { // Define a função para criar um quadrado vermelho
+    const vermelho = document.createElement("div"); // Cria um novo elemento <div> dinamicamente
+    vermelho.classList.add("vermelho"); // Adiciona a classe "vermelho" ao elemento <div>
+    document.body.appendChild(vermelho); // Adiciona o <div> vermelho ao body
+}
