@@ -1,0 +1,14 @@
+function corAzul() { // Define a função para mudar a cor do fundo para azul
+    document.body.classList.remove("azul", "vermelho", "verde"); // Remove as classes anteriores para evitar sobreposição
+    document.body.classList.add("azul"); // Adiciona a classe "azul" ao body
+}
+
+function corVermelho() { // Define a função para mudar a cor do fundo para vermelho
+    document.body.classList.remove("azul", "vermelho", "verde"); // Remove qualquer uma das classes anteriores para garantir que apenas "vermelho" seja aplicada
+    document.body.classList.add("vermelho"); // Adiciona a classe "vermelho" ao body
+}
+
+function corVerde() { // Define a função para mudar a cor do fundo para verde
+    document.body.classList.remove("azul", "vermelho", "verde"); // Remove qualquer uma das classes anteriores para garantir que apenas "verde" seja aplicada
+    document.body.classList.add("verde"); // Adiciona a classe "verde" ao body
+}
