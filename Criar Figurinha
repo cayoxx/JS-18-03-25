@@ -1,0 +1,17 @@
+function adicionar() { // Define a função para adicionar
+    inputNome = document.getElementById("nome"); // Pega o elemento de input do nome
+    inputUrl = document.getElementById("url-img"); // Pega o elemento de input da URL da imagem
+    itemGroup = document.getElementById("item-group"); // Pega o elemento onde os itens serão adicionados
+
+    const item = document.createElement('div'); // Cria um novo div
+    item.classList.add('item'); // Adiciona a classe item no div
+    itemGroup.appendChild(item); // Adiciona o div dentro de itemGroup
+
+    const imagem = document.createElement("img"); // Cria um img
+    imagem.setAttribute('src', inputUrl); // Define o atributo como 'src'
+    imagem.appendChild(imagem); // Adiciona a imagem na classe imagem
+
+    const h3 = document.createElement("h3"); // Cria um elemento h3
+    h3.textContent = inputNome; // Define o conteúdo do h3 como o nome colocado 
+    item.appendChild(h3); // Adiciona o h3 dentro do div item
+}
